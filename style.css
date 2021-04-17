@@ -7,14 +7,8 @@
 body{
     background-color:#262626;
 }
-header{
-    background-color: #ee5f1d;
-    height:150px;
-}
-footer{
-    background-color:#111111;
-    height:300px;
-}
+
+
 main{
     height:100%;
     display: flex;
