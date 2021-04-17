@@ -49,5 +49,10 @@ main{
 h1{
     color:#fff;
     font-size:30px;
-    margin:10% 0% 10% 0%;
+    margin:10% 0% 1% 0%;
+}
+p{
+color:#ffc;
+font-weight:400;
+font-size:25px;
 }
