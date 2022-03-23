@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DKashkarev | GrowPi</title>
+    <title>dKashkarev</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="logo2.png" type="image/x-icon">
@@ -18,8 +18,8 @@
                 <div class="wrap-logo">
                     <a href="https://growpi.clsource.ru"><img src="logo2.png"></a>
                     <div>
-                    <h2><a href="https://growpi.clsource.ru">dKashkarev | GrowPi ™</a></h2>
-                    <b>automatic grow house</b>
+                    <h2><a href="https://growpi.clsource.ru">dKashkarev</a></h2>
+                    <b>my projects</b>
                     </div>
                 </div>
                 <div class="nav-bar">
@@ -50,38 +50,71 @@
     <div class="body">
         <div class="container2">
                 
-            <div class="slider">
+            <div class="slider"> <!--описание-->
                 <div>
                     
-                    <b>GrowPi</b>
-                    <p>Проект по автоматизации теплицы посредством установки блока логики, построенного на отладочной плате для Atmega 328p.</p>
+                    <b>GrowPi - автоматизированная теплица</b>
+                    <p>
+                        Проект реализован представлен двумя установками. 
+                        Основой явяется блок управления теплицей (БУТ), который был создан на основе 
+                        "Arduino board" версии nano и некоторой обвязки. [1]<br>
+                        Для примерного представления был создан прототип уменьшенной теплицы. [2]
+                    </p>
                 
                     <a href="https://youtu.be/EGWkdY8UoIQ" class="floating-button">Watch</a>
                 </div>
                <!-- <img src="tenor.gif"> -->
-                <iframe width="1850" height="460" src="https://www.youtube.com/embed/EGWkdY8UoIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe  
+                src="https://www.youtube.com/embed/EGWkdY8UoIQ" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; 
+                encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+            <div class="slider"  > <!--компоненты-->
+                <div>
+                    
+                    <b>Компоненты</b>
+                    <p>
+                        Блок: <br>
+                        - Arduino nano<br>
+                        - IRF3205 TO220AB<br>
+                        - Резисторы 10К и 1К<br>
+                        - DC-DC пониж.<br>
+                        - Пещалка<br>
+                        - RTC module - DS1302<br>
+                        - Порты и коннекторы<br>
+                        - Конденсатор на 100uf<br>
+                        - Диод<br>
+                        - Колодки<br>
+                        - Энкодер<br>
+                        - Экран<br>
+                        - Кнопка питания
+                    </p>
+                    <p>
+                        Датчики:<br>
+                        - Влажности почвы<br>
+                        - Температуры и влажности воздуха<br>
+                        - Освещенности
+                    </p>
+                    <p>
+                        Периферия:<br>
+                        - Вентилятор 12v<br>
+                        - Насос 5V<br>
+                        - Нагреватель 12v<br>
+                        - Увлажнитель 5V
+
+                    </p>
+                    
+                    
+                </div>
+               <img src="block.jpg">
+               <!-- <img src="tenor.gif"> -->
+                
+            </div>
+            
         </div>
     </div>
-    <!--     <div id="disqus_thread"></div>
-<script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://innofiled.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>-->
+   
     <footer>
         <div class="container">
         <div class="footer">
@@ -104,20 +137,10 @@
                 <p class="by">©2020-2021 Copyright by <span style="font-weight: bold;">me</span> | Supported by  <a name="info" title="danila.kashkarev@ya.ru" href="mailto:danila.kashkarev@ya.ru" > dKashkarev</a></p>
         
         </div>
-            
-                <div class="socialclubs">
-                    <ul class="soc-menu">
-                        <li class="soc-item">
-                            <a target="_blank" href="https://github.com/daniltech" class="soc-link"><i class="fa fa-github"></i></a>
-                        </li>
-                      <li class="soc-item">
-                        <a href="tg://resolve?domain=dkashkarev" class="soc-link"><i class="fa fa-telegram"></i></a>
-                      </li>
-                      <li class="soc-item">
-                        <a href="mailto:danila.kashkarev@ya.ru" class="soc-link"><i class="fa fa-envelope"></i></a>
-                      </li>
-                    </ul>
-                  </div>
+            <div class="supporters">
+                <a href="https://38cdtt.ru/"><img src="cdtt.png"></a>
+                <a href="http://www.liguirk.ru/"> <img src="cmit.png"></a>
+            </div>
             
         </div>
             
