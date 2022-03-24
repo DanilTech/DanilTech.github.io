@@ -22,7 +22,7 @@ header{
 }
 body{
     background:#181e2a;
-    background-image: url(resourses/img/background.png);
+    background-image: url(background.png);
     background-repeat: repeat;
     background-size: 20%;
 }
