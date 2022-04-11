@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dKashkarev</title>
+    <title>dKashkarev | GrowPi</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style.css">
+    
     <link rel="shortcut icon" href="logo2.png" type="image/x-icon">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="main.css">
@@ -46,34 +46,63 @@
             </div>
         </div>
     </header>
-    
-    <div class="body">
+    <div class="chield">
+        
+          <div class="shield-container">
+            <h1>GrowPi</h1>
+            <ul class="chield-info">
+                <li><span>&lt; Projects/&gt;</span></li>
+                <li><span>@dkashkarev</span></li>
+                <li><span>10.04.2022</span></li>
+            </ul>
+          </div>
+        
+      </div>
+    <div class="content">
+       
+        
         <div class="container2">
-                
-            <div class="slider"> <!--описание-->
+            
+           <!-- <div class="hyper-links">
+                <ul>
+                    <li>Видео</li>
+                    <li>Компоненты</li>
+                    <li>Схема</li>
+                    <li>Каркас</li>
+                    <li>Код</li>
+                    <li>Тесты</li>
+                    <li>Выводы</li>
+                    <li>Авторство</li>
+                </ul>
+            </div>   -->
+            <article > <!--описание-->
                 <div>
                     
-                    <b>GrowPi - автоматизированная теплица</b>
+                    <h2 id="Video">
+                        <a href="#Video" class="headline">Видео ролик</a>
+                    </h2>
                     <p>
                         Проект реализован представлен двумя установками. 
                         Основой явяется блок управления теплицей (БУТ), который был создан на основе 
-                        "Arduino board" версии nano и некоторой обвязки. [1]<br>
-                        Для примерного представления был создан прототип уменьшенной теплицы. [2]
+                        "Arduino board" версии nano и некоторой обвязки. [<a href="#Layout">1</a>]<br>
+                        Для примерного представления был создан прототип уменьшенной теплицы. [<a href="#Frame">2</a>]
                     </p>
                 
                     <a href="https://youtu.be/EGWkdY8UoIQ" class="floating-button">Watch</a>
                 </div>
                <!-- <img src="tenor.gif"> -->
-                <iframe  
+                <iframe  class="youtube-video"
                 src="https://www.youtube.com/embed/EGWkdY8UoIQ" 
                 title="YouTube video player" frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; 
                 encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="slider"  > <!--компоненты-->
+            </article>
+            <article> <!--компоненты-->
                 <div>
                     
-                    <b>Компоненты</b>
+                    <h2 id="Part">
+                        <a href="#Part" class="headline">Компоненты</a>
+                    </h2>
                     <p>
                         Блок: <br>
                         - Arduino nano<br>
@@ -110,11 +139,13 @@
                <img src="block.jpg">
                <!-- <img src="tenor.gif"> -->
                 
-            </div>
-            <div class="slider"  > <!--c[tvf]-->
+            </article>
+            <article   > <!--схема-->
                 <div>
                     
-                    <b>Схема [1]</b>
+                    <h2 id="#Layout">
+                        <a href="#Layout" class="headline">Схема</a>
+                    </h2>
                     <p>
                         Принципиальная схема была разработана в программе "Splan v6.0"
                         Компоненты на схеме объединены в отдельные области. В верхней части находится
@@ -128,11 +159,13 @@
                <img src="sheet.png">
                <!-- <img src="tenor.gif"> -->
                 
-            </div>
-            <div class="slider"  > <!--каркас-->
+            </article>
+            <article> <!--каркас-->
                 <div>
                     
-                    <b>Каркас [2]</b>
+                    <h2 id="Frame">
+                        <a href="#Frame" class="headline">Карскас</a>
+                    </h2>
                     <p>
                         Для изготовления каркаса был использован алюминевый уголок и печатные детали.
                         Уголки были разработы в программе "Fusion 360", они выполняли связующую функцию.
@@ -144,11 +177,13 @@
                <img src="base.jpg">
                <!-- <img src="tenor.gif"> -->
                 
-            </div>
-            <div class="slider"  > <!--программа-->
+            </article>
+            <article> <!--программа-->
                 <div>
                     
-                    <b>Код</b>
+                    <h2 id="Code">
+                        <a href="#Code" class="headline">Код / программа</a>
+                    </h2>
                     <p>
                         В качестве IDE для разработки я использовал "Visual Studio Code" и 
                         дополнение "PlatformIO". В данной среде можно создавать крупные проекты для
@@ -160,11 +195,13 @@
                <img src="code.png">
                <!-- <img src="tenor.gif"> -->
                 
-            </div>
-            <div class="slider"  > <!--тесты-->
+            </article>
+            <article> <!--тесты-->
                 <div>
                     
-                    <b>Тесты</b>
+                    <h2 id="Tests">
+                        <a href="#Tests" class="headline">Тесты</a>
+                    </h2>
                     <p>
                         Были произведены тесты нагревателя, системы полива и  освещения. По итогу температура
                         в камере через 2 часа 30 минут выросла с 24.8 °C до 31.9 °C.                   
@@ -175,11 +212,13 @@
                <img src="test.jpg">
                <!-- <img src="tenor.gif"> -->
                 
-            </div>
-            <div class="slider"  > <!--выводы-->
+            </article>
+            <article> <!--выводы-->
                 <div>
                     
-                    <b>Выводы</b>
+                    <h2 id="Findings">
+                        <a href="#Findings" class="headline">Выводы</a>
+                    </h2>
                     <p>
                         По ходу работы я преобрел множество навыков в  3d-моделировании, 
                         программировании и работе с разными материалами.
@@ -192,12 +231,10 @@
                <img src="end.jpg">
                <!-- <img src="tenor.gif"> -->
                 
-            </div>
-            <div class="slider"  > <!--выводы-->
+            </article>
+            <article> <!--выводы-->
                 <div>
-                    
-                    
-                    <p>
+                    <p style="margin:0 0 0 0;">
                         Спасибо за внимание, проект был выполнен Кашкарёвым Данилом, учеником 9 класса МАОУ Лицея ИГУ 
                         города Иркутска, под руководством Александра Николаевича Рудых, преподавателя МБУДО ЦДТТ города Иркутска.
                          
@@ -208,7 +245,9 @@
                
                <!-- <img src="tenor.gif"> -->
                 
-            </div>
+            </article>
+            
+            
             
         </div>
     </div>
@@ -216,7 +255,7 @@
     <footer>
         <div class="container">
         <div class="footer">
-            <div class="footer-wrapper"></class>
+            <div class="footer-wrapper">
             <div class="wrap-logo">
                 <a href="https://growpi.clsource.ru"><img src="logo2.png"></a>
                 <div>
